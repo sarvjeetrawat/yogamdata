@@ -1,1 +1,183 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-15",
+  "baseUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/yogam-assets/main",
+  
+  "poses": [
+    {
+      "id": "pose_001",
+      "name": "Mountain Pose",
+      "sanskritName": "Tadasana",
+      "difficulty": "EASY",
+      "image": "/images/poses/mountain_pose.jpg",
+      "thumbnail": "/images/poses/thumbnails/mountain_pose_thumb.jpg",
+      "video": "/videos/poses/mountain_pose.mp4",
+      "videoDuration": 45
+    },
+    {
+      "id": "pose_002",
+      "name": "Downward Facing Dog",
+      "sanskritName": "Adho Mukha Svanasana",
+      "difficulty": "MODERATE",
+      "image": "/images/poses/downward_dog.jpg",
+      "thumbnail": "/images/poses/thumbnails/downward_dog_thumb.jpg",
+      "video": "/videos/poses/downward_dog.mp4",
+      "videoDuration": 60
+    },
+    {
+      "id": "pose_003",
+      "name": "Warrior I",
+      "sanskritName": "Virabhadrasana I",
+      "difficulty": "MODERATE",
+      "image": "/images/poses/warrior_one.jpg",
+      "thumbnail": "/images/poses/thumbnails/warrior_one_thumb.jpg",
+      "video": "/videos/poses/warrior_one.mp4",
+      "videoDuration": 50
+    },
+    {
+      "id": "pose_004",
+      "name": "Child's Pose",
+      "sanskritName": "Balasana",
+      "difficulty": "EASY",
+      "image": "/images/poses/childs_pose.jpg",
+      "thumbnail": "/images/poses/thumbnails/childs_pose_thumb.jpg",
+      "video": "/videos/poses/childs_pose.mp4",
+      "videoDuration": 40
+    },
+    {
+      "id": "pose_005",
+      "name": "Plank Pose",
+      "sanskritName": "Phalakasana",
+      "difficulty": "MODERATE",
+      "image": "/images/poses/plank.jpg",
+      "thumbnail": "/images/poses/thumbnails/plank_thumb.jpg",
+      "video": "/videos/poses/plank.mp4",
+      "videoDuration": 45
+    },
+    {
+      "id": "pose_006",
+      "name": "Cobra Pose",
+      "sanskritName": "Bhujangasana",
+      "difficulty": "EASY",
+      "image": "/images/poses/cobra.jpg",
+      "thumbnail": "/images/poses/thumbnails/cobra_thumb.jpg",
+      "video": "/videos/poses/cobra.mp4",
+      "videoDuration": 35
+    },
+    {
+      "id": "pose_007",
+      "name": "Tree Pose",
+      "sanskritName": "Vrksasana",
+      "difficulty": "MODERATE",
+      "image": "/images/poses/tree_pose.jpg",
+      "thumbnail": "/images/poses/thumbnails/tree_pose_thumb.jpg",
+      "video": "/videos/poses/tree_pose.mp4",
+      "videoDuration": 55
+    },
+    {
+      "id": "pose_008",
+      "name": "Warrior II",
+      "sanskritName": "Virabhadrasana II",
+      "difficulty": "MODERATE",
+      "image": "/images/poses/warrior_two.jpg",
+      "thumbnail": "/images/poses/thumbnails/warrior_two_thumb.jpg",
+      "video": "/videos/poses/warrior_two.mp4",
+      "videoDuration": 50
+    },
+    {
+      "id": "pose_009",
+      "name": "Triangle Pose",
+      "sanskritName": "Trikonasana",
+      "difficulty": "MODERATE",
+      "image": "/images/poses/triangle.jpg",
+      "thumbnail": "/images/poses/thumbnails/triangle_thumb.jpg",
+      "video": "/videos/poses/triangle.mp4",
+      "videoDuration": 55
+    },
+    {
+      "id": "pose_010",
+      "name": "Bridge Pose",
+      "sanskritName": "Setu Bandhasana",
+      "difficulty": "EASY",
+      "image": "/images/poses/bridge.jpg",
+      "thumbnail": "/images/poses/thumbnails/bridge_thumb.jpg",
+      "video": "/videos/poses/bridge.mp4",
+      "videoDuration": 45
+    }
+  ],
 
+  "sessions": [
+    {
+      "id": "session_001",
+      "title": "Morning Sun Salutation",
+      "style": "VINYASA",
+      "level": "BEGINNER",
+      "durationMinutes": 30,
+      "thumbnail": "/images/sessions/morning_sun.jpg",
+      "previewVideo": "/videos/sessions/morning_sun_preview.mp4",
+      "fullVideo": "/videos/sessions/morning_sun_full.mp4",
+      "instructorId": "inst_001",
+      "poseIds": ["pose_001", "pose_002", "pose_005", "pose_006", "pose_003", "pose_004"]
+    },
+    {
+      "id": "session_002",
+      "title": "Deep Stretch & Release",
+      "style": "HATHA",
+      "level": "INTERMEDIATE",
+      "durationMinutes": 45,
+      "thumbnail": "/images/sessions/deep_stretch.jpg",
+      "previewVideo": "/videos/sessions/deep_stretch_preview.mp4",
+      "fullVideo": "/videos/sessions/deep_stretch_full.mp4",
+      "instructorId": "inst_003",
+      "poseIds": ["pose_004", "pose_002", "pose_001", "pose_007", "pose_004"]
+    },
+    {
+      "id": "session_003",
+      "title": "Core Power Flow",
+      "style": "POWER",
+      "level": "ADVANCED",
+      "durationMinutes": 60,
+      "thumbnail": "/images/sessions/core_power.jpg",
+      "previewVideo": "/videos/sessions/core_power_preview.mp4",
+      "fullVideo": "/videos/sessions/core_power_full.mp4",
+      "instructorId": "inst_002",
+      "poseIds": ["pose_001", "pose_005", "pose_002", "pose_003", "pose_005", "pose_006", "pose_004"]
+    },
+    {
+      "id": "session_004",
+      "title": "Evening Wind Down",
+      "style": "YIN",
+      "level": "BEGINNER",
+      "durationMinutes": 20,
+      "thumbnail": "/images/sessions/evening_wind.jpg",
+      "previewVideo": "/videos/sessions/evening_wind_preview.mp4",
+      "fullVideo": "/videos/sessions/evening_wind_full.mp4",
+      "instructorId": "inst_003",
+      "poseIds": ["pose_004", "pose_006", "pose_002", "pose_004"]
+    }
+  ],
+
+  "instructors": [
+    {
+      "id": "inst_001",
+      "name": "Maya Williams",
+      "photo": "/images/instructors/maya_williams.jpg",
+      "specialties": ["Vinyasa", "Hatha", "Meditation"],
+      "yearsExperience": 10
+    },
+    {
+      "id": "inst_002",
+      "name": "Alex Chen",
+      "photo": "/images/instructors/alex_chen.jpg",
+      "specialties": ["Power", "Ashtanga", "Athletic Yoga"],
+      "yearsExperience": 6
+    },
+    {
+      "id": "inst_003",
+      "name": "Sarah Johnson",
+      "photo": "/images/instructors/sarah_johnson.jpg",
+      "specialties": ["Yin", "Restorative", "Gentle Yoga"],
+      "yearsExperience": 8
+    }
+  ]
+}
