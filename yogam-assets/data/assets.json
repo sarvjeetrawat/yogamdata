@@ -114,8 +114,8 @@
       "level": "BEGINNER",
       "durationMinutes": 30,
       "thumbnail": "/images/sessions/morning_sun.jpg",
-      "previewVideo": "/videos/sessions/morning_sun_preview.mp4",
-      "fullVideo": "/videos/sessions/morning_sun_full.mp4",
+      "previewVideo": "/videos/sessions/chakrasana.mp4",
+      "fullVideo": "/videos/sessions/chakrasana.mp4",
       "instructorId": "inst_001",
       "poseIds": ["pose_001", "pose_002", "pose_005", "pose_006", "pose_003", "pose_004"]
     },
